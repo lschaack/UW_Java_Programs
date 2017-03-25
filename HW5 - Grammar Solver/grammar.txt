@@ -1,0 +1,12 @@
+<sentence>::=<noun> <nounverb>|<adj> <noun> <nounverb>
+<noun>::=<nounverb>|Ingsoc|state|man|life
+<verb>::=<nounverb>|run|steal
+<nounverb>::=<adverb> <nounverb>|think|crime|speak
+<nounverb>::=write|report|knife|hit
+<nounadj>::=<nounverb> -ful|
+<adj>::=<nounadj>|<adj> -er|<adj> -est
+<adj>::=plus- <adj>|doubleplus- <adj>
+<adj>::=good|strong|big|black|cold
+<adjs>::=<adj>|<adj> <adjs>
+<adverb>::=<nounverb> -wise|<noun> -wise
+<negative>::=un- <adj>
